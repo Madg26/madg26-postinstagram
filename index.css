@@ -1,0 +1,54 @@
+* {
+    font-family: monospace;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: black;
+    text-align: center;
+}
+.post {
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.header{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+img{
+    width: 100%;
+    height: 60%;
+    padding-top: 10px;
+}
+.fa-bookmark{
+    padding-left: 377px;
+}
+div{
+    margin-top: 10px; 
+}
+.fa-heart:hover{
+    color: red;
+}
+.fa-html5{
+    padding: 10px;
+}
+.fa-ellipsis-vertical{
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.buttons{
+    font-size:x-large;
+    margin-top: 10px;
+}
